@@ -4,4 +4,4 @@ WORKDIR /app
 
 RUN pip install pytest
 
-COPY app/ /app
+COPY src/ /app
